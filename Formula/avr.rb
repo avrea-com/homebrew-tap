@@ -1,22 +1,22 @@
 class Avr < Formula
   desc "Avrea command-line client"
   homepage "https://avrea.com/"
-  version "0.5.0"
+  version "0.6.0"
   license "Apache-2.0"
 
   # Prebuilt PyApp binary (a Rust launcher wrapping the avr-cli PyPI wheel);
   # the tarball contains `avr` plus a `completions/` dir.
   on_macos do
     on_arm do
-      url "https://github.com/avrea-com/cli/releases/download/v0.5.0/avr_0.5.0_darwin_arm64.tar.gz"
-      sha256 "4a1d816766b43ffc94eee247620c9a0af1da39ec7e09767ac6ccff60d7bc537c"
+      url "https://github.com/avrea-com/cli/releases/download/v0.6.0/avr_0.6.0_darwin_arm64.tar.gz"
+      sha256 "150123777f0a237fc655b4d976c69032e623fec43e3e834a7244306c47deb005"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/avrea-com/cli/releases/download/v0.5.0/avr_0.5.0_linux_amd64.tar.gz"
-      sha256 "26a0f1aea0e384be7014155944908ccb4a790ff40602c04f619b7ab12063579c"
+      url "https://github.com/avrea-com/cli/releases/download/v0.6.0/avr_0.6.0_linux_amd64.tar.gz"
+      sha256 "71693cda5eae546acd699d2bb17fc31725f974f14f9c1b38445c480c7f014365"
     end
   end
 
