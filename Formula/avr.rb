@@ -1,16 +1,14 @@
 class Avr < Formula
   desc "Avrea command-line client"
   homepage "https://avrea.com/"
+  url "https://github.com/avrea-com/cli/releases/download/v0.10.0/avr_0.10.0_darwin_arm64.tar.gz"
   version "0.10.0"
+  sha256 "a541d30b3a3f7f3bb203f6be7ffc5aaa3e8c68696e0b7ea9c27044d29fe69e0c"
   license "Apache-2.0"
 
   on_macos do
     depends_on arch: :arm64
     depends_on macos: :ventura
-    on_arm do
-      url "https://github.com/avrea-com/cli/releases/download/v0.10.0/avr_0.10.0_darwin_arm64.tar.gz"
-      sha256 "a541d30b3a3f7f3bb203f6be7ffc5aaa3e8c68696e0b7ea9c27044d29fe69e0c"
-    end
   end
 
   on_linux do
