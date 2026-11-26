@@ -3,9 +3,9 @@ class Avr < Formula
   homepage "https://avrea.com/"
   # `brew tap` loads the formula for every OS and architecture, so each needs
   # a URL. Intel Macs get this one but are refused by `depends_on arch`.
-  url "https://github.com/avrea-com/cli/releases/download/v0.11.0/avr_0.11.0_darwin_arm64.tar.gz"
-  version "0.11.0"
-  sha256 "396f4d835721f7104b73b5d676ef7959e89d2ddef1821da9b07cd644493339e1"
+  url "https://github.com/avrea-com/cli/releases/download/v0.12.0/avr_0.12.0_darwin_arm64.tar.gz"
+  version "0.12.0"
+  sha256 "d65b2ea858d4be23015a423c8a50e92161af3f730d2f873b25bde67384e035d9"
   license "Apache-2.0"
 
   on_macos do
@@ -15,12 +15,12 @@ class Avr < Formula
 
   on_linux do
     on_intel do
-      url "https://github.com/avrea-com/cli/releases/download/v0.11.0/avr_0.11.0_linux_amd64.tar.gz"
-      sha256 "24c332d1207e1c3ff2ad707e75facc4a201e49c72b9a99ba4066bd4034903256"
+      url "https://github.com/avrea-com/cli/releases/download/v0.12.0/avr_0.12.0_linux_amd64.tar.gz"
+      sha256 "97b0dbaa7dedcd019d4d709e5172bd4b7c9775453da5e67e356aa633713b1830"
     end
     on_arm do
-      url "https://github.com/avrea-com/cli/releases/download/v0.11.0/avr_0.11.0_linux_arm64.tar.gz"
-      sha256 "0f88e0d1e0a44e76279e1760d50397853936ef37fde045079a334e02b4735e86"
+      url "https://github.com/avrea-com/cli/releases/download/v0.12.0/avr_0.12.0_linux_arm64.tar.gz"
+      sha256 "88c8f7f12090f5791cf6522ec439441d9416a850969ffa5e6b3f69b926601430"
     end
   end
 
